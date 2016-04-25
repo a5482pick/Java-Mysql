@@ -15,7 +15,7 @@ class MysqlConnVersion1  {
      
         try {
         
-            //Arg of forName is the class that implements java.sql.Driver.
+            //Returns the class object associated with the jdbc Driver interface.
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("Driver successfully loaded.");
         } 
